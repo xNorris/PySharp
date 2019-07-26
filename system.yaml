@@ -1,0 +1,23 @@
+
+app:
+  app_name: PyLoader
+  log_dir: Loader/Logs/
+  project: pyloader
+  respawn:
+    command: Py.exe
+    display_name: PySharp
+  splash: UserID\\Disk\\Riot Games\\League of Legends\\Game\\League of Legends.exe 
+build:
+  branch: .../8.4
+  patchline: ...
+  self_update:
+    component_id: py_loader_client
+    executables:
+      app: PyLoader.exe
+      exe: Py.exe
+    files:
+      debug:
+      - new.exe
+      - Py.Core.dll
+      - dew_xd64.dll
+patchline: ...
